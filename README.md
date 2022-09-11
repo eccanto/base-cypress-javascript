@@ -60,6 +60,17 @@ npm test
 
 ![example](documentation/media/run.gif)
 
+### Cypress videos
+
+#### create-acount.cy.js
+
+[![create-acount](documentation/media/cypress/1-registration/preview.png)](documentation/media/cypress/1-registration/create-acount.cy.js.mp4)
+
+#### filters.cy.js
+
+[![filters](documentation/media/cypress/2-transactions/preview.png)](documentation/media/cypress/2-transactions/filters.cy.js.mp4)
+
+
 ## Running tests manually
 
 Open **`Cypress`** and run the tests manually:
@@ -67,16 +78,6 @@ Open **`Cypress`** and run the tests manually:
 ```bash
 npm run cypress:open
 ```
-
-## Cypress videos
-
-### create-acount.cy.js
-
-[![create-acount](documentation/media/cypress/1-registration/preview.png)](documentation/media/cypress/1-registration/create-acount.cy.js.mp4)
-
-### filters.cy.js
-
-[![filters](documentation/media/cypress/2-transactions/preview.png)](documentation/media/cypress/2-transactions/filters.cy.js.mp4)
 
 # Static code analysis tools
 
