@@ -64,7 +64,7 @@ npm test
 
 #### create-acount.cy.js
 
-[![create-acount](documentation/media/cypress/1-registration/preview.png)](documentation/media/cypress/1-registration/create-acount.cy.js.mp4)
+![create-acount](documentation/media/cypress/1-registration/create-acount.cy.js.mp4)
 
 #### filters.cy.js
 
