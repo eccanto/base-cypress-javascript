@@ -9,6 +9,7 @@ Basic example of using Cypress with Javascript.
 * [Overview](#overview)
 * [Get started](#get-started)
   * [Installation](#installation)
+  * [Configuration](#configuration)
 * [How to run the tests](#how-to-run-the-tests)
   * [Running tests](#running-tests)
   * [Running tests manually](#running-tests-manually)
@@ -79,6 +80,16 @@ npm run cypress:open
 ```
 
 # Static code analysis tools
+
+These are the linters that will help us to follow good practices and style guides of our source code. We will be using the following static analysis tools, which will be executed when generating a new push in the repository (git hooks).
+
+## Set up the Git hooks custom directory
+
+After cloning the repository run the following command in the repository root:
+
+```bash
+git config core.hooksPath .githooks
+```
 
 ## ESLint
 
