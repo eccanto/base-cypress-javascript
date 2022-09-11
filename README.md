@@ -64,12 +64,13 @@ npm test
 
 #### create-acount.cy.js
 
-![create-acount](documentation/media/cypress/1-registration/create-acount.cy.js.mp4)
+<video width="320" height="240" controls>
+  <source src="documentation/media/cypress/1-registration/create-acount.cy.js.mp4" type="video/mp4">
+</video>
 
 #### filters.cy.js
 
-[![filters](documentation/media/cypress/2-transactions/preview.png)](documentation/media/cypress/2-transactions/filters.cy.js.mp4)
-
+![](documentation/media/cypress/2-transactions/filters.cy.js.mp4)
 
 ## Running tests manually
 
