@@ -20,7 +20,7 @@ Basic example of using Cypress with Javascript.
 
 # Overview
 
-Automate the ["user registration"](cypress/e2e/1-registration/create-acount.cy.js) and ["transaction filtering"](cypress/e2e/2-transactions/filters.cy.js) feature of the https://demo.casino site.
+Automate the ["user registration"](cypress/e2e/1-registration/create-account.cy.js) and ["transaction filtering"](cypress/e2e/2-transactions/filters.cy.js) feature of the https://demo.casino site.
 
 # Get started
 
@@ -62,15 +62,13 @@ npm test
 
 ### Cypress videos
 
-#### create-acount.cy.js
+#### create-account.cy.js
 
-<video width="320" height="240" controls>
-  <source src="documentation/media/cypress/1-registration/create-acount.cy.js.mp4" type="video/mp4">
-</video>
+![create-account](documentation/media/cypress/1-registration/create-account.cy.js.gif)
 
 #### filters.cy.js
 
-![](documentation/media/cypress/2-transactions/filters.cy.js.mp4)
+![filters](documentation/media/cypress/2-transactions/filters.cy.js.gif)
 
 ## Running tests manually
 
