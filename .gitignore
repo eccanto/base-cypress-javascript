@@ -1,0 +1,13 @@
+# Dependency directories
+node_modules/
+
+# cypress files
+cypress/downloads
+cypress/screenshots
+cypress/videos
+
+# Optional .vscode settings directory
+.vscode
+
+# environment file
+.env
