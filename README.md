@@ -14,6 +14,7 @@ Basic example of using Cypress with Javascript.
   * [Running tests](#running-tests)
   * [Running tests manually](#running-tests-manually)
 * [Static code analysis tools](#static-code-analysis-tools)
+  * [Set up the Git hooks custom directory](#set-up-the-git-hooks-custom-directory)
   * [ESLint](#eslint)
     * [Find Problems](#find-problems)
     * [Fix Automatically](#fix-automatically)
