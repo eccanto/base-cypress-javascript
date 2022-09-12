@@ -1,13 +1,11 @@
 describe('Create new account', () => {
     let inboxTest;
 
-    before(() => {
+    beforeEach(() => {
         cy.createInbox().then((inbox) => {
             inboxTest = inbox;
         });
-    });
 
-    beforeEach(() => {
         cy.visit('https://demo.casino/');
     });
 
