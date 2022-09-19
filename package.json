@@ -6,12 +6,14 @@
     "cypress:open": "export $(grep -v '^#' .env | xargs) && cypress open",
     "pretest": "rm -rf cypress/{downloads,screenshots,videos}",
     "test": "export $(grep -v '^#' .env | xargs) && cypress run",
+    "test:suitability": "export $(grep -v '^#' .env | xargs) && cypress run -e TAGS='@suitability'",
     "lint": "eslint . --ext .js,.json",
     "lint:fix": "npm run lint -- --fix"
   },
   "keywords": [
     "cypress",
     "javascript",
+    "BDD",
     "qa",
     "testing"
   ],
@@ -30,9 +32,18 @@
     "eslint-plugin-jsonc": "^2.0.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.1",
-    "mailslurp-client": "^15.13.3"
+    "html-to-text": "^8.2.1",
+    "mailslurp-client": "^15.13.3",
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.0"
   },
-  "dependencies": {
-    "html-to-text": "^8.2.1"
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/integration/step_definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
   }
 }
